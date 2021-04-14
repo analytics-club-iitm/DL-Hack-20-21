@@ -1,0 +1,9 @@
+<nav role="navigation">
+  <ul>
+    <li><a href="/" {% if page.url == "/" %}class="active"{% endif %}>Home</a></li>
+    <li><a href="/track1" {% if page.url == "/track1" %}class="active"{% endif %}>Track-1</a></li>
+    <li><a href="/track2" {% if page.url == "/track2" %}class="active"{% endif %}>Track-2</a></li>
+    <li><a href="/leaderboard" {% if page.url == "/leaderboard" %}class="active"{% endif %}>Leaderboard</a></li>
+    <li><a href="/faq" {% if page.url == "/faq" %}class="active"{% endif %}>FAQ</a></li>
+  </ul>
+</nav>

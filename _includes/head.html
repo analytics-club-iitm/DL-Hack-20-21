@@ -1,0 +1,58 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {% seo %}
+  <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.png">
+  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.baseurl }}/atom.xml">
+  <link rel="sitemap" type="application/xml" title="sitemap" href="{{ site.baseurl }}/sitemap.xml" />
+  <style type="text/css">
+    {% capture include_to_scssify %}
+      {% include inline.scss %}
+    {% endcapture %}
+    {{ include_to_scssify | scssify }}
+  </style>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    TeX: { equationNumbers: { autoNumber: "AMS" } }
+    });
+  </script>
+  <script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script src="assets/scripts/jquery.countdown.js"></script>
+  <script type="text/javascript">
+      $(function() {
+          $('.countdown-styled').countdown({
+              render: function(data) {
+              var el = $(this.el);
+              el.empty()
+                  .append("<div>" + this.leadingZeros(data.days, 3) + " <span>days</span></div>")
+                  .append("<div>" + this.leadingZeros(data.hours, 2) + " <span>hrs</span></div>")
+                  .append("<div>" + this.leadingZeros(data.min, 2) + " <span>min</span></div>")
+                  .append("<div>" + this.leadingZeros(data.sec, 2) + " <span>sec</span></div>");
+              }
+          });
+  
+          $('.stop').on('click', function(e) {
+              e.preventDefault();
+              $('.countdown-styled').data('countdown').stop();
+          });
+  
+          $('.start').on('click', function(e) {
+              e.preventDefault();
+              $('.countdown-styled').data('countdown').start();
+          });
+  
+          $('.countdown-callback').countdown({
+              date: +(new Date) + 10000,
+              render: function(data) {
+              $(this.el).text(this.leadingZeros(data.sec, 2) + " sec");
+              },
+              onEnd: function() {
+              $(this.el).addClass('ended');
+              }
+          }).on("click", function() {
+              $(this).removeClass('ended').data('countdown').update(+(new Date) + 10000).start();
+          });
+      });
+  </script>
+</head>
