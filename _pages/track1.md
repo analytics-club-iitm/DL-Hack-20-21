@@ -3,7 +3,7 @@ layout: page
 title: Track 1
 ---
 <p align="center">
-    <a href="https://www.kaggle.com/c/dl-hack-track-1-cv/">COMPETETION LINK</a>
+    <a href="https://www.kaggle.com/c/dl-hack-track-1-cv/">COMPETITION LINK</a>
 </p>
 
 # Description

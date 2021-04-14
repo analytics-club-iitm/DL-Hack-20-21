@@ -38,7 +38,7 @@ table tr:nth-of-type(3) {background: lightgreen;}
 
 # Track 2
 
-[Kaggle live leaderboard]()
+[Kaggle live leaderboard](https://www.kaggle.com/c/dl-hack-track-2-nlp/leaderboard)
 
 **STANDINGS**
 
