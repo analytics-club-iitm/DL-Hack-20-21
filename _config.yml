@@ -1,10 +1,7 @@
-site: Ultra
-url: https://example.com
-title: Ultra
-description: Ultra - Super fast Jekyll theme, weighs under 2kb
-twitter:
-  username: yourusername
-  card: summary
+site: DL-HACK-20-21
+url: https://mukundvarmat.github.io/DL-Hack-20-21/
+title: DL-HACK-20-21
+description: Deep Learning Hackathon - Track 1 hosted by Analytics Club, CFI, IIT-M
 
 permalink: pretty
 
