@@ -8,9 +8,9 @@ title: Track 2
 
 # Description
 
-Recent improvements in Language models have led to substantial progress on various NLP tasks like text classification, question-answering, information-retrieval, etc. Text Generation (or) the task of generating text with the goal of appearing indistinguishable to human-written text is one such task that has captured the attention of researchers ([GPT-3](https://github.com/elyase/awesome-gpt3)).
+Recent improvements in Language models have led to significant progress on various NLP tasks like text classification, question-answering, information-retrieval, etc. Text Generation (or) the task of generating text to appear indistinguishable from human-written text is one such task that has captured the attention of researchers([GPT-3](https://github.com/elyase/awesome-gpt3)).
 
-In this challenge, you will be required to generate abstracts for research papers from their titles. Unlike text summarization, this is a more demanding task as the model needs to predict an entire paragraph from just 5-6 words present in the title, capture cues regarding progress of research in a specific topic, and most importantly ensure novelty. 
+In this challenge, you will be required to generate abstracts for research papers from their titles. Unlike text summarization, this is a more demanding task as the model needs to predict an entire paragraph from just 5-6 words present in the title, capture cues regarding the progress of research in a specific topic, and most importantly ensure novelty. 
 
 <p align="center">
     <img src="./assets/images/title-abstract.png" width="50%">
