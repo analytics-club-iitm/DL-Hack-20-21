@@ -11,7 +11,7 @@ table tr:nth-of-type(3) {background: lightgreen;}
 
 [Kaggle live leaderboard](https://www.kaggle.com/c/dl-hack-track-1-cv/leaderboard)
 
-**STANDINGS**
+**STANDINGS (LAST REFRESHED - N.A)**
 
 <table id="table">
     <tr>
@@ -40,7 +40,7 @@ table tr:nth-of-type(3) {background: lightgreen;}
 
 [Kaggle live leaderboard](https://www.kaggle.com/c/dl-hack-track-2-nlp/leaderboard)
 
-**STANDINGS**
+**STANDINGS (LAST REFRESHED - N.A)**
 
 <table id="table">
     <tr>

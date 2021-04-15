@@ -51,9 +51,9 @@ A smaller RMSLE is better. It fundamentally computes the relative error and does
 
 # Submission
 
-SPECTRE produces embeddings of size 768 and to ensure ease in computation, this is reduced to a 32 sized vector using PCA. Hence, the final submission file must contain 33 columns - **"id"**: paper id and columns ranging from **f_0-f_31**: each index of the embedding vector. Sample submission file can be found [here](assets/sample_submission/track2.csv). 
+SPECTRE produces embeddings of size 768 and to ensure ease in computation, this is reduced to a 32 sized vector using PCA. Hence, the final submission file must contain 33 columns - **"id"**: paper id and columns ranging from **"f_0-f_31"**: each index of the embedding vector. Sample submission file can be found [here](assets/sample_submission/track2.csv). 
 
-We also provide a submission script which can be found [here](assets/scripts/submit_track2.py) to create embeddings from the predicted abstracts by querying the SPECTRE API. *Here the predicted csvfile corresponds to the model's text predictions which needs to be converted to embeddings.*
+We also provide a submission script which can be found [here](assets/scripts/submit_track2.py) to create embeddings from the predicted abstracts by querying the SPECTRE API. *Here the predicted-csvfile corresponds to the model's text predictions which needs to be converted to embeddings.*
 
 **USAGE**
 ```bash

@@ -55,7 +55,7 @@ if __name__ == "__main__":
     embeddings = pca.fit_transform(embeddings)
     
     df = pd.DataFrame.from_records(embeddings)
-    cols = {str(i): f"f_{i}" for i in range(32)}
+    cols = {i: f"f_{i}" for i in range(32)}
     df = df.rename(columns=cols)
     df["id"] = np.arange(len(embeddings))
     df.to_csv("submission.csv", index=False)
