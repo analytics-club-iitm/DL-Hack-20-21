@@ -72,10 +72,10 @@ python3 submit_track1.py <path-to-test-datadir> <model-ckpt>
 # IMPORTANT
 
 - Please note that the submission should be the **PROBABILITY** that the given image is real and not the class labels. (refer to submission script [here](assets/scripts/submit_track1.py))
-- The generator used to create the test set is specifically fine-tuned to spoof deep fake detectors. Hence a high performing model on the train set **NEED NOT** give similar performance in the test set.
+- The generator used to create the test set is specifically fine-tuned to spoof deep fake detectors. Hence a high-performing model on the train set **NEED NOT** give a similar performance in the test set.
 - During inference, you are **NOT** allowed to resize the images in the test set. Any violation of this rule will lead to an invalid submission.
 - All participants are required to submit their code and any manipulation found in the same will lead to an invalid submission.
-- **SUGGESTION**: As mentioned before log loss penalizes the model for being both confident and wrong. In the worst possible case, a prediction that something is TRUE when it is actually FALSE will add an infinite amount to your error score. Hence, its better to bound your predictions from the extremes by a small value. This can be done simply by:
+- **SUGGESTION**: As mentioned before log loss penalizes the model for being both confident and wrong. In the worst possible case, a prediction that something is TRUE when it is FALSE will add an infinite amount to your error score. Hence, it's better to bound your predictions from the extremes by a small value. This can be done simply by:
 ```python
 import numpy as np
 # here prob_real is the predicted probabilty of the image being REAL
