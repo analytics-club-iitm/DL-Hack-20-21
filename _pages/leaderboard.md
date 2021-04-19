@@ -11,7 +11,7 @@ table tr:nth-of-type(3) {background: lightgreen;}
 
 [Kaggle live leaderboard](https://www.kaggle.com/c/dl-hack-track-1-cv/leaderboard)
 
-**STANDINGS (LAST REFRESHED - 19 April 2021 09:54:09 AM IST)**
+**STANDINGS (LAST REFRESHED - 19 April 2021 06:06:16 PM IST)**
 
 <table id="table">
     <tr>
@@ -25,15 +25,15 @@ table tr:nth-of-type(3) {background: lightgreen;}
         <td>0.43434</td>
     </tr>
     <tr>
+        <td>someone</td>
+        <td>adityadas2105</td>
+        <td>1.49744</td>
+    </tr>
+    <tr>
         <td>randomshiz</td>
-        <td>randomshiz</td>
+        <td>snapdragon729</td>
         <td>1.56202</td>
     </tr>
-    <!-- <tr>
-        <td>Dummy Team 3</td>
-        <td>Name 1, Name 2</td>
-        <td>Dummy Score 3</td>
-    </tr> -->
 </table>
 
 # Track 2
