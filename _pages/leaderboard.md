@@ -11,7 +11,7 @@ table tr:nth-of-type(3) {background: lightgreen;}
 
 [Kaggle live leaderboard](https://www.kaggle.com/c/dl-hack-track-1-cv/leaderboard)
 
-**STANDINGS (LAST REFRESHED - 19 April 2021 06:06:16 PM IST)**
+**STANDINGS (LAST REFRESHED - 20 April 2021 10:00:13 AM IST)**
 
 <table id="table">
     <tr>
@@ -25,9 +25,14 @@ table tr:nth-of-type(3) {background: lightgreen;}
         <td>0.43434</td>
     </tr>
     <tr>
+        <td>The Untouchaballs</td>
+        <td>shrisudhangme17b122</td>
+        <td>0.87389</td>
+    </tr>
+    <tr>
         <td>someone</td>
         <td>adityadas2105</td>
-        <td>1.49744</td>
+        <td>1.44625</td>
     </tr>
     <tr>
         <td>randomshiz</td>
